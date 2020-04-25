@@ -17,32 +17,23 @@ return array (
   ),
   'site' => 
   array (
-    'site_name' => 'pornboom',
-    'site_url' => 'www.pornboom.club',
-    'site_wapurl' => 'www.pornboom.club',
+    'site_name' => '免费短视频分享大全 - 大中国',
+    'site_url' => 'www.test.cn',
+    'site_wapurl' => 'wap.test.cn',
     'site_keywords' => '短视频,搞笑视频,视频分享,免费视频,在线视频,预告片',
     'site_description' => '提供最新最快的视频分享数据',
     'site_icp' => 'icp123',
     'site_qq' => '123456',
     'site_email' => '123456@test.cn',
-    'install_dir' => '/',
+    'install_dir' => '/v10/',
     'site_logo' => 'static/images/logo.jpg',
     'site_waplogo' => 'static/images/logo.jpg',
-    'template_dir' => 'datll_km',
+    'template_dir' => 'default_pc',
     'html_dir' => 'html',
     'mob_status' => '0',
-    'mob_template_dir' => 'datll_km',
+    'mob_template_dir' => 'default_wap',
     'mob_html_dir' => 'html',
-    'site_tj' => '<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164582756-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag(\'js\', new Date());
-
-  gtag(\'config\', \'UA-164582756-1\');
-</script>
-',
+    'site_tj' => '统计代码',
     'site_status' => '1',
     'site_close_tip' => '站点暂时关闭，请稍后访问',
     'ads_dir' => 'ads',
@@ -187,8 +178,8 @@ return array (
   ),
   'interface' => 
   array (
-    'status' => 0,
-    'pass' => 'DKSYDB40XTZ2IQ87',
+    'status' => '1',
+    'pass' => 'TBAKOMRQBCCQCBLK',
     'vodtype' => '动作片=动作',
     'arttype' => '头条=头条',
   ),

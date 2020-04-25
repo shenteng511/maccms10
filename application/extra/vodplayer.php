@@ -87,17 +87,4 @@ return array (
     'tip' => '无需安装任何插件	',
     'id' => 'flv',
   ),
-  'ckplayer' => 
-  array (
-    'status' => '1',
-    'from' => 'ckplayer',
-    'show' => 'ckplayer',
-    'des' => '',
-    'target' => '_self',
-    'ps' => '1',
-    'parse' => '',
-    'sort' => '',
-    'tip' => '',
-    'id' => 'ckplayer',
-  ),
 );
