@@ -65,7 +65,7 @@ return array (
     'collect_timespan' => '3',
     'pagesize' => '20',
     'makesize' => '30',
-    'admin_login_verify' => '1',
+    'admin_login_verify' => '0',
     'editor' => 'ueditor',
     'player_sort' => '1',
     'encrypt' => '0',
