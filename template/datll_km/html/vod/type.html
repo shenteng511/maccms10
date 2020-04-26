@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>热门{$obj.type_title} 高清{$obj.type_title} {$obj.type_title}排行榜 - {$maccms.site_name}</title>
+    <meta name="keywords" content="{$obj.type_key}" />
+    <meta name="description" content="{$obj.type_des}" />
+    {include file="public/include"}
+</head>
+<body>
+{include file="public/head"}
+{switch name="obj.type_id" }
+{case value="1"}{include file="public/typedy"}{/case}
+{case value="6"}{include file="public/typedy"}{/case}
+{case value="7"}{include file="public/typedy"}{/case}
+{case value="8"}{include file="public/typedy"}{/case}
+{case value="9"}{include file="public/typedy"}{/case}
+{case value="10"}{include file="public/typedy"}{/case}
+{case value="11"}{include file="public/typedy"}{/case}
+{case value="12"}{include file="public/typedy"}{/case}
+{case value="20"}{include file="public/typedy"}{/case}
+{case value="2"}{include file="public/typeds"}{/case}
+{case value="13"}{include file="public/typedy"}{/case}
+{case value="14"}{include file="public/typedy"}{/case}
+{case value="15"}{include file="public/typedy"}{/case}
+{case value="16"}{include file="public/typedy"}{/case}
+{case value="21"}{include file="public/typedy"}{/case}
+{case value="3"}{include file="public/typezy"}{/case}
+    {default /}{include file="public/typezm"}
+{/switch}
+{include file="public/foot"}
+    <script src="{$maccms.path_tpl}js/lazyload.min.js"></script>
+    <script src="{$maccms.path_tpl}js/app.js"></script>
+</body>
+</html>
